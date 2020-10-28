@@ -30,23 +30,23 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Settings));
-            this.Drag_Tela_Configurações = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.Elipse_Tela_Settings = new Bunifu.Framework.UI.BunifuElipse(this.components);
+            this.Drag_Tela_Configurações = new ns1.BunifuDragControl(this.components);
+            this.Elipse_Tela_Settings = new ns1.BunifuElipse(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Config_btn = new Bunifu.Framework.UI.BunifuFlatButton();
+            this.Config_btn = new ns1.BunifuFlatButton();
             this.Img_HappyLogo = new System.Windows.Forms.PictureBox();
-            this.bunifuFlatButton1 = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Fechar_btn = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Salvar_btn = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Elipse_Salvar_btn = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.Elipse_Fechar_btn = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.TxTBox_Altura = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.TxTBox_Largura = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.CheckBox_FullScreen = new Bunifu.Framework.UI.BunifuCheckbox();
-            this.Label_FullScreen = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Label_Largura = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Label_Altura = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.bunifuCustomLabel2 = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.bunifuFlatButton1 = new ns1.BunifuFlatButton();
+            this.Fechar_btn = new ns1.BunifuFlatButton();
+            this.Salvar_btn = new ns1.BunifuFlatButton();
+            this.Elipse_Salvar_btn = new ns1.BunifuElipse(this.components);
+            this.Elipse_Fechar_btn = new ns1.BunifuElipse(this.components);
+            this.TxTBox_Altura = new ns1.BunifuMaterialTextbox();
+            this.TxTBox_Largura = new ns1.BunifuMaterialTextbox();
+            this.CheckBox_FullScreen = new ns1.BunifuCheckbox();
+            this.Label_FullScreen = new ns1.BunifuCustomLabel();
+            this.Label_Largura = new ns1.BunifuCustomLabel();
+            this.Label_Altura = new ns1.BunifuCustomLabel();
+            this.bunifuCustomLabel2 = new ns1.BunifuCustomLabel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Img_HappyLogo)).BeginInit();
             this.SuspendLayout();
@@ -354,22 +354,22 @@
         }
 
         #endregion
-        private Bunifu.Framework.UI.BunifuDragControl Drag_Tela_Configurações;
-        private Bunifu.Framework.UI.BunifuElipse Elipse_Tela_Settings;
-        private Bunifu.Framework.UI.BunifuFlatButton Salvar_btn;
-        private Bunifu.Framework.UI.BunifuFlatButton Fechar_btn;
+        private ns1.BunifuDragControl Drag_Tela_Configurações;
+        private ns1.BunifuElipse Elipse_Tela_Settings;
+        private ns1.BunifuFlatButton Salvar_btn;
+        private ns1.BunifuFlatButton Fechar_btn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox Img_HappyLogo;
-        private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton1;
-        private Bunifu.Framework.UI.BunifuElipse Elipse_Salvar_btn;
-        private Bunifu.Framework.UI.BunifuElipse Elipse_Fechar_btn;
-        private Bunifu.Framework.UI.BunifuFlatButton Config_btn;
-        private Bunifu.Framework.UI.BunifuCustomLabel Label_FullScreen;
-        private Bunifu.Framework.UI.BunifuCheckbox CheckBox_FullScreen;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox TxTBox_Largura;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox TxTBox_Altura;
-        private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel2;
-        private Bunifu.Framework.UI.BunifuCustomLabel Label_Altura;
-        private Bunifu.Framework.UI.BunifuCustomLabel Label_Largura;
+        private ns1.BunifuFlatButton bunifuFlatButton1;
+        private ns1.BunifuElipse Elipse_Salvar_btn;
+        private ns1.BunifuElipse Elipse_Fechar_btn;
+        private ns1.BunifuFlatButton Config_btn;
+        private ns1.BunifuCustomLabel Label_FullScreen;
+        private ns1.BunifuCheckbox CheckBox_FullScreen;
+        private ns1.BunifuMaterialTextbox TxTBox_Largura;
+        private ns1.BunifuMaterialTextbox TxTBox_Altura;
+        private ns1.BunifuCustomLabel bunifuCustomLabel2;
+        private ns1.BunifuCustomLabel Label_Altura;
+        private ns1.BunifuCustomLabel Label_Largura;
     }
 }

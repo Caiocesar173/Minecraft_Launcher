@@ -28,18 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            //ns1.BunifuImageButton
+            //ns1.BunifuImageButton
+
             this.components = new System.ComponentModel.Container();
-            Bunifu.Framework.UI.BunifuImageButton Settings_Btn;
+            ns1.BunifuImageButton Settings_Btn;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Tela_Principal));
-            this.Login = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Nick_Name = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.Exit_Btn = new Bunifu.Framework.UI.BunifuFlatButton();
-            this.Label_Error = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Label_ErrorVazio = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Drag_TelaPrincipal = new Bunifu.Framework.UI.BunifuDragControl(this.components);
-            this.Elipse_Login_Btn = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.Elipse_Tela_Principal = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            Settings_Btn = new Bunifu.Framework.UI.BunifuImageButton();
+            this.Login = new ns1.BunifuFlatButton();
+            this.Nick_Name = new ns1.BunifuMaterialTextbox();
+            this.Exit_Btn = new ns1.BunifuFlatButton();
+            this.Label_Error = new ns1.BunifuCustomLabel();
+            this.Label_ErrorVazio = new ns1.BunifuCustomLabel();
+            this.Drag_TelaPrincipal = new ns1.BunifuDragControl(this.components);
+            this.Elipse_Login_Btn = new ns1.BunifuElipse(this.components);
+            this.Elipse_Tela_Principal = new ns1.BunifuElipse(this.components);
+            Settings_Btn = new ns1.BunifuImageButton();
             ((System.ComponentModel.ISupportInitialize)(Settings_Btn)).BeginInit();
             this.SuspendLayout();
             // 
@@ -221,14 +224,14 @@
 
         #endregion
 
-        private Bunifu.Framework.UI.BunifuFlatButton Login;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox Nick_Name;
-        private Bunifu.Framework.UI.BunifuFlatButton Exit_Btn;
-        private Bunifu.Framework.UI.BunifuCustomLabel Label_Error;
-        private Bunifu.Framework.UI.BunifuCustomLabel Label_ErrorVazio;
-        private Bunifu.Framework.UI.BunifuDragControl Drag_TelaPrincipal;
-        private Bunifu.Framework.UI.BunifuElipse Elipse_Login_Btn;
-        private Bunifu.Framework.UI.BunifuElipse Elipse_Tela_Principal;
+        private ns1.BunifuFlatButton Login;
+        private ns1.BunifuMaterialTextbox Nick_Name;
+        private ns1.BunifuFlatButton Exit_Btn;
+        private ns1.BunifuCustomLabel Label_Error;
+        private ns1.BunifuCustomLabel Label_ErrorVazio;
+        private ns1.BunifuDragControl Drag_TelaPrincipal;
+        private ns1.BunifuElipse Elipse_Login_Btn;
+        private ns1.BunifuElipse Elipse_Tela_Principal;
     }
 }
 
